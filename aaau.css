@@ -1,17 +1,24 @@
 #he {
+    padding-bottom: 4px;
     background-color: rgba(80, 115, 161, 0.859);
-    
+
 }
 #nully {
+    
     color: rgba(80, 115, 161, 0.859) ;
     background-color: rgba(80, 115, 161, 0.859) ;
 }
 #ground1 {
+    
     background-color: rgb(154, 161, 155);
 }
 #ground {
+    color:rgb(154, 161, 155);
     background-color: rgb(154, 161, 155);
 }
 #diss {
     background-color: rgb(255, 255, 255);
+}
+h3 {
+    color: black;
 }
