@@ -1,0 +1,13 @@
+
+#fakebody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#btn {
+    size: 15px;
+}
+#btnfake {
+    color: white;
+}

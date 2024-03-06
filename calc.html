@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> aulas</title>
+        <link rel="stylesheet" type="text/css" href="calc.css"/>
+        <meta charset="UTF-8">
+        <script>
+           <!--var idade = parseInt(prompt("digite sua idade"))-->
+            function maioridade(id) {
+                if (id < 18) {
+                    return "menor de idade" ;
+                }
+                else {
+                    return "maior de idade"
+                }
+            }
+            //alert(maioridade(idade))
+            const nume = document.querySelector(".nume");
+
+            function mudarcor() {
+            }
+
+        </script>
+    </head>
+    <body>
+        <div id="fakebody">
+        <form >
+            <h1 class="nume">mude!</h1>
+            <button onclick="mudarcor()">CLick</button>  
+            <br>
+            <input id="btn" type="button" value="1">
+            <input id="btn" type="button" value="2">
+            <input id="btn" type="button" value="3">
+            <br>
+            <input id="btn" type="button" value="4">
+            <input id="btn" type="button" value="5">
+            <input id="btn" type="button" value="6">
+            <br>
+            <input id="btn" type="button" value="7">
+            <input id="btn" type="button" value="8">
+            <input id="btn" type="button" value="9">
+            <br>
+            <input id="btn" type="button" value=" -">
+            <input id="btn" type="button" value="0">
+            <input id="btn" type="button" value="+">
+        </form>
+    </div>
+    </body>
