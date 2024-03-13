@@ -1,0 +1,9 @@
+#fakebody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#signature {
+    color: rgba(89, 0, 172, 0.205);
+}
