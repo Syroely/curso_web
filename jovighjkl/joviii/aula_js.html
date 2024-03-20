@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> aulas</title>
+        <link rel="stylesheet" type="text/css" href="aula_js.css"/>
+        <meta charset="UTF-8">
+        <script>
+            function D6() {//multiplicaçõa
+                var n1 = parseInt(prompt("what is the number to be multiplied?"));
+                var n2 = parseInt(prompt("for the love of fun choose between 1, 2, 3, 4, 5, 6."));
+                while (n2 > 6) {
+                    var n2 = parseInt(prompt("i asked for a number bwetween those 1, 2, 3, 4, 5, 6."));
+                }
+                var soma = n1 * n2;
+                document.write("<h1>" + soma + "</h1>" );
+            }
+            function spinup() {//add
+                var n1 = parseInt(prompt("what is the right number?"));
+                var n2 = parseInt(prompt("what is the left number?"));
+                var soma = n1 + n2;
+                document.write("<h1>" + soma + "</h1>" );
+            }
+            function spindown() {//subtract
+                var n1 = parseInt(prompt("what is the right number?"));
+                var n2 = parseInt(prompt("what is the left number?"));
+                var soma = n1 - n2;
+                document.write("<h1>" + soma + "</h1>" );
+            }
+            function D20() { //divisão
+                var n1 = parseInt(prompt("what is the number to be divided?"));
+                var n2 = parseInt(prompt("for the love of fun choose between 1 and 20."));
+                while (n2 > 20) {
+                    var n2 = parseInt(prompt("i asked for a number be   tween 1 and 20."));
+                }
+                var soma = n1 / n2;
+                document.write("<h1>" + soma + "</h1>" );
+
+            }
+
+           
+            function cdice() {
+                document.querySelector(".TDice").style.color = "rgb(105, 5, 250)";
+            }
+
+        </script>
+    </head>
+    <body>
+        
+        <div id="fakebody">
+            <img src = 'download.png'>
+               
+            <h1 class="TDice">D100<br></h1>
+            <button onclick="cdice()">change Dice</button>
+            <button onclick="spindown()">minus</button>
+            <button onclick="spinup()">plus</button>
+            <button onclick="D6()">multply</button>
+            <button onclick="D20()">divide</button>
+
+            <input type="checkbox">
+            <input type="time">
+        </div>
+        <div>
+        <h70 id="signature">all medias: @syroel</h70>
+    </div>
+    </body>

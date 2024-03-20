@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> aulas</title>
+        <link rel="stylesheet" type="text/css" href="blep.css"/>
+        <meta charset="UTF-8">
+        <script>
+
+            function cdice() {
+                document.querySelector(".TDice").style.color = "rgb(105, 5, 250)";
+            }
+            function ttdice() {
+                document.querySelector(".DDice").style.color = "rgb(190, 5, 250)";
+            }
+            function tcdice() {
+                if (document.getElementById("pazão").value == "para para a paragrafo") {
+                document.getElementById("pazão").innerHTML = "roxo";
+                }
+                else {
+                    document.getElementById("pazão").innerHTML = "sou daotonico :)";
+                }
+            }
+        </script>
+
+
+    </head>  
+    <body>
+        <h1 class="DDice">aii0<br></h1>
+        <p id="pazão">para para a paragrafa</p>
+        <h1 class="TDice">ai0<br></h1>
+
+
+        <button onclick="cdice()">change r</button>
+        <button onclick="ttdice()">change e</button>
+        <button onclick="tcdice()">é paia?</button>
+    </body>  
