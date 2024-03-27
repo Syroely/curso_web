@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> aulas</title>
+        <link rel="stylesheet" type="text/css" href="ape.css"/>
+        <meta charset="UTF-8">
+        <script>
+            function haha(){
+                var z = 0 ;
+                while (z != 1000){
+                    document.getElementById("camelo").append('HAHAHAHAHAHAHA!')
+                    z = z + 1;
+                }}
+            function samuela(){
+               var malu = document.getElementById('fabricio').value; 
+               var neide = document.getElementById('fabricia').value;
+               
+               if ((malu == "jovi@danoninho.com" && neide == "1234") || (malu == "gabi@danoninho.com" && neide == "4321")) {
+                document.getElementById("bruna").append ("Você é piada aqui!");
+                haha()
+               }
+               else {
+                alert("errou seu login?")
+                alert("ta ferrado meu parceiro.")
+               }
+            }
+        </script>
+
+    </head>  
+    <body>
+        <div id= "fakebody">
+            <input type="email" id="fabricio"><br>
+            <input type="password" id="fabricia"><br>
+            <button onclick="samuela()" id=" btnm">emanuel</button>
+            <h2 id="bruna"></h2>
+            <h1 id="camelo"></h1>
+        </div>
+    </body>  
+</html>
