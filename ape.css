@@ -1,0 +1,27 @@
+#fakebody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+#signature {
+    color: rgba(73, 51, 9, 0.395);
+}
+
+#btn {
+    height: 80px;
+    width: 80px;
+}
+#btnrrr {
+    height: 160px;
+    width: 332px;
+}
+#camao {
+    height: 120px;
+    width: 323px;
+}
+#btnfake {
+    color: white;
+}
