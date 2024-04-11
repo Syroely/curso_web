@@ -10,10 +10,6 @@
     color: rgba(73, 51, 9, 0.395);
 }
 
-#btn {
-    height: 80px;
-    width: 80px;
-}
 #btnrrr {
     height: 160px;
     width: 332px;
@@ -21,7 +17,12 @@
 #camao {
     height: 120px;
     width: 323px;
+    font-size:xx-large;
 }
 #btnfake {
     color: white;
+}
+#btn {
+    height: 80px;
+    width: 80px;
 }

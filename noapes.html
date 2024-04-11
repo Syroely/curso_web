@@ -7,37 +7,48 @@
         <title>Nimh</title>
         <script>
            
+           function erbttt(btn){
+                var txt = document.getElementById("camao");
+                var old = txt.value;
+                txt.value = old + btn
 
+            }
+            function erbttt1(){
+              document.getElementById("camao").value = ""
+            }
+           function aaaaa(){
+            document.getElementById("mamia")
+           }
         </script>
 
     </head>  
     <body>
         <div id= "fakebody">
         <form >
-            <input type="text" id="camao"> 
+            <input type="text" id="camao" readonly> 
             <br>
-            <input id="btn" type="button" value="1">
-            <input id="btn" type="button" value="2">
-            <input id="btn" type="button" value="3">
-            <input id="btn" type="button" value="/">
+            <input id="btn" type="button" value="1" onclick="erbttt(1)">
+            <input id="btn" type="button" value="2" onclick="erbttt(2)">
+            <input id="btn" type="button" value="3" onclick="erbttt(3)">
+            <input id="btn" type="button" value="/" onclick="erbttt(' / ')">
             <br>
-            <input id="btn" type="button" value="4">
-            <input id="btn" type="button" value="5">
-            <input id="btn" type="button" value="6">
-            <input id="btn" type="button" value="X">
+            <input id="btn" type="button" value="4" onclick="erbttt(4)">
+            <input id="btn" type="button" value="5" onclick="erbttt(5)">
+            <input id="btn" type="button" value="6" onclick="erbttt(6)">
+            <input id="btn" type="button" value="X" onclick="erbttt(' X ')">
             <br>
-            <input id="btn" type="button" value="7">
-            <input id="btn" type="button" value="8">
-            <input id="btn" type="button" value="9">
-            <input id="btn" type="button" value=" -">
+            <input id="btn" type="button" value="7" onclick="erbttt(7)">
+            <input id="btn" type="button" value="8" onclick="erbttt(8)">
+            <input id="btn" type="button" value="9" onclick="erbttt9(9)">   
+            <input id="btn" type="button" value=" -" onclick="erbttt(' - ')">
             <br>
-            <input id="btn" type="button" value="00">
-            <input id="btn" type="button" value="0">
-            <input id="btn" type="button" value="+">
-            <input id="btn" type="button" value="%">
+            <input id="btn" type="button" value="CE" onclick="erbttt1()">
+            <input id="btn" type="button" value="0" onclick="erbttt(0)">
+            <input id="btn" type="button" value="+" onclick="erbttt(' + ')">
+            <input id="btn" type="button" value="%" onclick="erbttt(' % ')">
             <br>
             <br>
-            <input id="btnrrr" type="button" value="=">
+            <input id="btnrrr" type="button" value="=" onclick="erbttt()">
         </form>
         <h70 id="signature">Made by: @syroel</h70>
         </div>
