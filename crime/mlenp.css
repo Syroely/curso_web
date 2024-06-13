@@ -1,0 +1,12 @@
+body {
+    color: rgb(223, 200, 230);
+    background-color: rgb(248, 224, 255);
+}
+#manbody {
+    display: flex;
+    margin: 15% 15%;
+}
+button {
+    width: 1000px;
+    height: 1200px;
+}
